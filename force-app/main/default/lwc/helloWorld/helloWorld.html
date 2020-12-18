@@ -1,3 +1,7 @@
 <template>
-    <lightning-card> Hello {greeting} </lightning-card>
+    <lightning-card title={greeting}>
+
+        <lightning-input type="text" onchange={textChangeHandler} label="Enter some text" value= "{greeting}"></lightning-input>
+
+    </lightning-card>
 </template>
